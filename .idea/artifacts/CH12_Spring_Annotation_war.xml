@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CH12-Spring-Annotation:war">
+    <output-path>$PROJECT_DIR$/CH12-Spring-Annotation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CH12-Spring-Annotation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CH12-Spring-Annotation.war">
+      <element id="artifact" artifact-name="CH12-Spring-Annotation:war exploded" />
+    </root>
+  </artifact>
+</component>

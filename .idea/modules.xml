@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Hello-Spring/01-Hello-Spring.iml" filepath="$PROJECT_DIR$/01-Hello-Spring/01-Hello-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-di-xml/02-di-xml.iml" filepath="$PROJECT_DIR$/02-di-xml/02-di-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CH12-Spring-Annotation/CH12-Spring-Annotation.iml" filepath="$PROJECT_DIR$/CH12-Spring-Annotation/CH12-Spring-Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch03-ioc-test/ch03-ioc-test.iml" filepath="$PROJECT_DIR$/ch03-ioc-test/ch03-ioc-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04-di-anno/ch04-di-anno.iml" filepath="$PROJECT_DIR$/ch04-di-anno/ch04-di-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch06-Aop-AspectJ/ch06-Aop-AspectJ.iml" filepath="$PROJECT_DIR$/ch06-Aop-AspectJ/ch06-Aop-AspectJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch07-Spring-Mybatis/ch07-Spring-Mybatis.iml" filepath="$PROJECT_DIR$/ch07-Spring-Mybatis/ch07-Spring-Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-spring-transaction/ch08-spring-transaction.iml" filepath="$PROJECT_DIR$/ch08-spring-transaction/ch08-spring-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch09-spring-transaction-anno/ch09-spring-transaction-anno.iml" filepath="$PROJECT_DIR$/ch09-spring-transaction-anno/ch09-spring-transaction-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch10-spring-transaction-asprctj/ch10-spring-transaction-aspectj.iml" filepath="$PROJECT_DIR$/ch10-spring-transaction-asprctj/ch10-spring-transaction-aspectj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java框架/text02/text02.iml" filepath="$PROJECT_DIR$/../Java框架/text02/text02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/text03/text03.iml" filepath="$PROJECT_DIR$/text03/text03.iml" />
+    </modules>
+  </component>
+</project>

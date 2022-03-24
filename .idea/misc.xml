@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ch04" />
+    <file type="web" url="file://$PROJECT_DIR$/ch04-spring-自动注入" />
+    <file type="web" url="file://$PROJECT_DIR$/ch04-自动注入" />
+    <file type="web" url="file://$PROJECT_DIR$/ch11-spring-web" />
+    <file type="web" url="file://$PROJECT_DIR$/CH12-Spring-Annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/ch12-spring-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch03-ioc-test/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-自动注入/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-di-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/../Java框架/ch06-Aop-AspectJ/pom.xml" />
+        <option value="$PROJECT_DIR$/../Java框架/text02/pom.xml" />
+        <option value="$PROJECT_DIR$/../Java框架/ch07-Spring-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-spring-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09-spring-transaction-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-Spring-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-Aop-AspectJ/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10-spring-transaction-asprctj/pom.xml" />
+        <option value="$PROJECT_DIR$/text03/pom.xml" />
+        <option value="$PROJECT_DIR$/text04/pom.xml" />
+        <option value="$PROJECT_DIR$/CH12-Spring-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/01-Hello-Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/02-di-xml/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

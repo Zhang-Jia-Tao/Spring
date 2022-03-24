@@ -1,0 +1,12 @@
+# Project exclude paths
+/01-Hello-Spring/target/
+/02-di-xml/target/
+/ch03-ioc-test/target/
+/ch04-di-anno/target/
+/ch06-Aop-AspectJ/target/
+/ch07-Spring-Mybatis/target/
+/ch08-spring-transaction/target/
+/ch09-spring-transaction-anno/target/
+/ch10-spring-transaction-asprctj/target/
+/CH12-Spring-Annotation/target/
+/text03/target/

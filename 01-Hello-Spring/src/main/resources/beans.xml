@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--告诉spring创建对象
+         叫做声明bean，告诉spring要创建的某个类的对象
+          其中 id：对象的自定义名称，唯一值，spring通过这个名称找到对象
+              class：类的全限定名称（不能是接口，因为spring是通过反射机制创建对象的，必须使用类）
+
+         spring底层；相当于spring底层完成 SomeService someService = new SomeServiceImpl();
+         spring框架中有一个map用于存放对象，spring把创建好的对象放入到map中
+
+         一个bean标签声明一个对象
+    -->
+    <bean id="someService01" class="com.bjpowernode.service.impl.SomeServiceImpl"/>
+
+    <bean id="someService02" class="com.bjpowernode.service.impl.SomeServiceImpl"/>
+
+    <bean id="someService03" class="com.bjpowernode.service.impl.SomeServiceImpl"/>
+
+    <!--创建一个非自定义类的对象-->
+    <bean id="MyDate" class="java.util.Date"/>
+
+</beans>
+
+<!--
+    spring的配置文件
+        1.beans：是根标签，spring把java对象称为bean
+        2.spring-beans.xsd 是约束文件
+-->

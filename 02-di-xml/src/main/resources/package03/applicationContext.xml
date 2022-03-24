@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        简单类型：spring规定java中的基本数据类型和String为简单类型
+        注入：赋值的意思
+        di：给属性赋值
+        1.set注入：spring调用类的set方法， 在set方法中完成属性的赋值
+            1）简单类型的set注入
+                <bean id="***" class="***">
+                    <property name="属性名字" value="此属性的值"/>
+                    一个property只能给一个属性赋值
+                    <property..../>
+                </bean>
+
+            2)引用类型的set注入
+                <bean id="***" class="***">
+                    <property name="属性名称" ref="bean的id(对象的名称)"/>
+                </bean>
+
+       2.构造注入：spring调用类的有参数构造方法，在创建对象的同时，在构造方法中给属性赋值。
+            构造注入使用<constructor-arg>标签
+            <constructor-arg>标签：一个<constructor-arg>标签代表构造方法中的一个参数
+            <constructor-arg>标签的属性：
+                name:表示构造方法的形参名
+                index：表示构造方法参数的位置，参数从左往右依次为0、1、2....
+                value：构造方法的形参类型如果为简单类型，则使用value
+                ref：构造方法的形参类型如果为引用类型，则使用ref
+
+
+    -->
+    <bean id="school" class="com.bjpowernode.package03.School">
+        <property name="name" value="SDUST"/>
+        <property name="address" value="QingDao"/>
+    </bean>
+
+    <bean id="school01" class="com.bjpowernode.package03.School">
+        <constructor-arg name="name" value="SDUST"/>
+        <constructor-arg name="address" value="QingDao"/>
+    </bean>
+
+    <!--使用name属性实现构造注入-->
+    <bean id="student" class="com.bjpowernode.package03.Student">
+        <constructor-arg name="name"  value="zhangjiatao"></constructor-arg>
+        <constructor-arg name="school"  ref="school"/>
+        <constructor-arg name="age"  value="20"/>
+    </bean>
+
+    <!--使用index属性实现构造注入-->
+    <bean id="student01" class="com.bjpowernode.package03.Student">
+        <constructor-arg index="0" value="张佳涛"/>
+        <constructor-arg index="1" value="20"/>
+        <constructor-arg index="2" ref="school01"/>
+    </bean>
+
+    <bean id="student02" class="com.bjpowernode.package03.Student">
+        <constructor-arg name="name" value="zhang"/>
+        <constructor-arg name="age" value="12"/>
+        <constructor-arg name="school" ref="school01"/>
+    </bean>
+
+
+</beans>

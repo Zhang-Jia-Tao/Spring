@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bjpowernode.dao.StudentDao">
+    <insert id="insertStudent">
+        insert into New_Student value(#{id},#{name},#{email},#{age})
+    </insert>
+
+    <select id="selectStudents" resultType="com.bjpowernode.domain.Student">
+        select * from New_Student order by id desc
+    </select>
+
+</mapper>
+
